@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_label">DETAILS</string>
+    <string name="not_available">Not Available</string>
+    <string name="label_last_updated">Last updated</string>
+    <string name="label_created">Created</string>
+    <string name="label_default_branch">Default branch</string>
+    <string name="label_size">Size</string>
+    <string name="label_forked_repo">Forked repo</string>
+    <string name="label_star">Star</string>
+    <string name="label_forks">Forks</string>
+    <string name="label_watch">Watch</string>
+    <string name="label_issues">Issues</string>
+</resources>

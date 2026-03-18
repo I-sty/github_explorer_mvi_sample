@@ -64,6 +64,11 @@ ksp {
 }
 
 dependencies {
+    // lib modules
+    implementation(project(":repositories"))
+    implementation(project(":details"))
+    implementation(project(":core"))
+
     // android core
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -76,9 +81,6 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
 
-    // coil
-    implementation(libs.coil.compose)
-    implementation(libs.coil.network)
 
     // koin di
     implementation(libs.bundles.koin)
@@ -87,9 +89,6 @@ dependencies {
     implementation(libs.room.runtime)
     implementation(libs.room.paging)
 
-    // pagination
-    implementation(libs.paging.runtime)
-    implementation(libs.paging.compose)
 
     // retrofit & okhttp
     implementation(libs.retrofit)

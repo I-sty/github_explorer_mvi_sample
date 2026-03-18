@@ -1,10 +1,10 @@
 package com.i_sz_app.githubexplorer.data.mapper
 
+import com.i_sz_app.core.domain.model.RepositoryDetailsModel
 import com.i_sz_app.githubexplorer.data.local.entity.RepositoryEntity
 import com.i_sz_app.githubexplorer.data.remote.dto.LicenseDTO
 import com.i_sz_app.githubexplorer.data.remote.dto.OwnerDTO
 import com.i_sz_app.githubexplorer.data.remote.dto.RepositoryDTO
-import com.i_sz_app.githubexplorer.domain.model.RepositoryDetailsModel
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_rate_limit_toast">GitHub rate limit exceeded. Try again later.</string>
+    <string name="error_rate_limit">GitHub rate limit exceeded.\nPlease wait a moment.</string>
+    <string name="error_no_network">No internet connection.\nPlease check your connection and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="sort_stars">Stars</string>
+    <string name="sort_forks">Forks</string>
+    <string name="sort_help_wanted">Help Wanted</string>
+    <string name="sort_updated">Recently Updated</string>
+    <string name="error_something_went_wrong">Something went wrong! Try again later.</string>
+    <string name="error_failed_to_load_more">Failed to load more. Tap to retry.</string>
+    <string name="language_search_bar_placeholder">Filter by language (e.g. Kotlin, Rust…)</string>
+</resources>

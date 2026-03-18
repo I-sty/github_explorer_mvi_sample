@@ -24,3 +24,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "GitHub Explorer"
 include(":app")
+include(":repositories")
+include(":details")
+include(":core")
