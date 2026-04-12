@@ -1,20 +1,16 @@
-package com.i_sz_app.repositories.data.repository
+package com.i_sz_app.githubexplorer.data.repository
 
 import androidx.paging.ExperimentalPagingApi
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.map
-import com.i_sz_app.core.domain.model.RepositoryDetailsModel
 import com.i_sz_app.githubexplorer.data.local.datasource.RepositoryLocalDataSource
 import com.i_sz_app.githubexplorer.data.mapper.toDomain
 import com.i_sz_app.githubexplorer.data.remote.datasource.RepositoryRemoteDataSource
 import com.i_sz_app.githubexplorer.data.repository.mediator.RepositoryMediator
+import com.i_sz_app.githubexplorer.domain.model.RepositoryDetailsModel
 import com.i_sz_app.githubexplorer.domain.repository.IRepository
-import com.i_sz_app.repositories.data.local.datasource.RepositoryLocalDataSource
-import com.i_sz_app.repositories.data.remote.datasource.RepositoryRemoteDataSource
-import com.i_sz_app.repositories.data.repository.mediator.RepositoryMediator
-import com.i_sz_app.repositories.domain.repository.IRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import org.koin.core.annotation.Factory

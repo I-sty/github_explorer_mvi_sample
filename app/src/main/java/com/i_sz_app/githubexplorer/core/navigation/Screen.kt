@@ -1,6 +1,6 @@
-package com.i_sz_app.githubexplorer.presentation.main.navigation
+package com.i_sz_app.githubexplorer.core.navigation
 
-import com.i_sz_app.core.domain.model.RepositoryDetailsModel
+import com.i_sz_app.githubexplorer.domain.model.RepositoryDetailsModel
 import kotlinx.serialization.Serializable
 
 sealed interface Screen {

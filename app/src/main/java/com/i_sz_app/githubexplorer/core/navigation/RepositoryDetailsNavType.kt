@@ -1,9 +1,9 @@
-package com.i_sz_app.githubexplorer.presentation.main.navigation
+package com.i_sz_app.githubexplorer.core.navigation
 
 import android.net.Uri
 import android.os.Bundle
 import androidx.navigation.NavType
-import com.i_sz_app.core.domain.model.RepositoryDetailsModel
+import com.i_sz_app.githubexplorer.domain.model.RepositoryDetailsModel
 import kotlinx.serialization.json.Json
 
 val RepositoryDetailsNavType = object : NavType<RepositoryDetailsModel>(

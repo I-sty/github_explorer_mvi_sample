@@ -1,4 +1,4 @@
-package com.i_sz_app.githubexplorer.presentation.main.navigation
+package com.i_sz_app.githubexplorer.core.navigation
 
 import androidx.compose.animation.SharedTransitionLayout
 import androidx.compose.runtime.Composable
@@ -8,7 +8,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
-import com.i_sz_app.repositories.presentation.RepositoryScreenEntry
+import com.i_sz_app.githubexplorer.domain.model.RepositoryDetailsModel
+import com.i_sz_app.githubexplorer.presentation.details.DetailsScreenEntry
+import com.i_sz_app.githubexplorer.presentation.repositories.RepositoryScreenEntry
 import kotlin.reflect.typeOf
 
 @Composable
